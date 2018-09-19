@@ -1,5 +1,7 @@
 # our-test-dokku-project
 
+This is a VUE Project that is configured to run in a docker npm container.  It is only an example
+
 > A Vue.js project
 
 ## Build Setup
