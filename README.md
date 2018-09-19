@@ -19,3 +19,13 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+
+## For docker
+
+# build image
+docker build -t ithankyou/docker-vue .
+
+# run image
+docker run -d -p 3000:80 --name docker-vue iThankYou/docker-vue
